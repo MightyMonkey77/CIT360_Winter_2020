@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2020, 3:35:15 PM
+    Author     : azhra
+*/
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
+    h1, h2, h3, p{
+        font-family: 'MedievalSharp', cursive;
+    }
+    
+    header {
+        background-image: url("/initiativeTracker/images/site/header_background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 50%;
+    }
+    html {
+        background-image: url("/initiativeTracker/images/site/pathfinder_background.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100%;
+        
+        }
+        
+    body {
+        background-image: url("/initiativetracker/images/site/parchment_body.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 auto;
+        width: 85%;
+        
+        
+    }
+    
+    main {
+        margin-left: 16px;
+        margin-right: 8px;
+    }
+    
+    footer {
+        background-color: tan;
+        margin-left: 16px;
+        margin-right: 8px;
+    }
+        
+    nav {
+        width: 100%;
+        background-color: sandybrown;
+    }
+    
+    nav ul {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        list-style-type: none;
+        float: left;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 1em;
+    }
+
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+    }    
+
+    .imageD20 img {
+        border-radius: 4px;
+        padding: 5px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .lgText {
+        font-size: 56px;
+        margin-left: 300px;
+        position: absolute;
+        display: flex;
+        top: 50px;   
+    }
+    
+    .formtextinput {
+        font-family: 'MedievalSharp', cursive;
+    }
+    
+    .formtextinput input{
+        margin: 3px 0;
+        border-radius: 3px;
+        padding-left: 5px;
+        border-radius: 10px;
+        width: 250px;
+    }
+    
+    .button {
+        border-radius: 10px;
+        background-color: sandybrown;
+        font-family: 'MedievalSharp', cursive;
+    }
+    
+   
