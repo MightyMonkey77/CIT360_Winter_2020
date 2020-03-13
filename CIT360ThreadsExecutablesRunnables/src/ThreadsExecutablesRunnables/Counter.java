@@ -5,23 +5,25 @@
  */
 package ThreadsExecutablesRunnables;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  *
  * @author azhra
  */
 public class Counter {
     
-    private int value;
+    private AtomicInteger value = new AtomicInteger();
  
     public void increment() {
-        value++;
+        value.incrementAndGet();
     }
  
     public void decrement() {
-        value--;
+        value.decrementAndGet();
     }
  
     public int get() {
-        return value;
+        return value.get();
     }
 }
