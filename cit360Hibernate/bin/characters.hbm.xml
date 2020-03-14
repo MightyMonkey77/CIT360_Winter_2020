@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 11, 2020, 9:21:31 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="cit360Hibernate.characters" table="characters">
+        <id name="characterId" type="int" access="field">
+            <column name="characterId" />
+            <generator class="increment" />
+        </id>
+        <property name="characterFirstName" type="java.lang.String">
+            <column name="characterFirstName" />
+        </property>
+        <property name="characterLastName" type="java.lang.String">
+            <column name="characterLastName" />
+        </property>
+        <property name="characterRace" type="java.lang.String">
+            <column name="characterRace" />
+        </property>
+        <property name="characterClass" type="java.lang.String">
+            <column name="characterClass" />
+        </property>
+        <property name="characterStr" type="int">
+            <column name="characterStr" />
+        </property>
+        <property name="characterDex" type="int">
+            <column name="characterDex" />
+        </property>
+        <property name="characterWis" type="int">
+            <column name="characterWis" />
+        </property>
+        <property name="characterInt" type="int">
+            <column name="characterInt" />
+        </property>
+        <property name="characterCon" type="int">
+            <column name="characterCon" />
+        </property>
+        <property name="characterCha" type="int">
+            <column name="characterCha" />
+        </property>
+        <property name="characterAC" type="int">
+            <column name="characterAC" />
+        </property>
+        <property name="characterInitiative" type="int">
+            <column name="characterInitiative" />
+        </property>    
+    </class>
+</hibernate-mapping>
